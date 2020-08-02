@@ -1,0 +1,16 @@
+- title: Meta-analysis of prognostic and diagnostic studies workshop
+  location: Mashhad University of Medical Sciences (Mashhad, Iran)
+  year: 2017
+  duration: 1 session
+- title: Teaching assistant in NeuromatchAcademy, a computational neuroscience crash course
+  location: Online course on Zoom
+  year: 2020
+  duration: 3 weeks
+  link: https://github.com/NeuromatchAcademy/course-content
+  content: "Topics covered: Modeling practice, Model fitting, GLMs, Dimensionality reduction,
+           Bayesian statistics, Linear dynamical systems, Markov process, 
+           Decision making, Hidden Markov models, Kalman filter, Optimal control,
+           Markov decision process, Reinforcement learning, Modeling real neuron,
+           Modeling neuronal networks using Wilson-Cowen model, Causality, Deep learning (with Pytorch),
+           Autoencoders"
+

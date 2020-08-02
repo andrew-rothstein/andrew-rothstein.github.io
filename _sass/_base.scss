@@ -73,7 +73,7 @@ a, table.table a {
       }
   }
   .contact-icon {
-    font-size: 2rem;
+    font-size: 1rem;
     a {
       color: $grey-color-dark;
       &:hover {
@@ -131,7 +131,7 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       color: $grey-color-dark;
       &:hover {
@@ -231,7 +231,7 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 250px;
+    width: 350px;
     margin-bottom: 10px;
     a {
       color: black;
@@ -248,8 +248,21 @@ footer.sticky-bottom {
 
 
 // Publications
-
 .publications {
+
+  strong {
+      color: #fff;
+      background-color: #ff6969;
+      border-radius: 3px;
+      padding: 2px 5px;
+      font-weight: 300;
+  }
+
+
+}
+
+
+.publications-auto {
   margin-top: 2rem;
   h2.year {
     color: $grey-color-light;
@@ -259,6 +272,41 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+  strong {
+    color: #fff;
+    background-color: $theme-color;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  strong.sjrq {
+    padding: 1px 4px;
+    font-size: 0.8em;
+  }
+
+  strong.sjrq.NA_Q {
+    background-color: grey;
+  }
+
+  strong.sjrq.Q1 {
+    background-color: rgb(164, 207, 99);
+  }
+
+  strong.sjrq.Q2 {
+    background-color: rgb(232, 213, 89);
+  }
+
+  strong.sjrq.Q3 {
+    background-color: rgb(251, 163, 83);
+  }
+
+  strong.sjrq.Q4 {
+    background-color: rgb(221, 90, 78);
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -332,12 +380,120 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
-      span.abstract.hidden {
+      span.hidden {
         border: dashed 1px white;
       }
-      span.abstract.hidden.open {
+      span.hidden.open {
         border-color: $grey-color;
       }
     }
   }
+}
+
+.education {
+  strong {
+    color: #fff;
+    background-color: $theme-color;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+      .abbr {
+        height: 2rem;
+        margin-bottom: 0.5rem;
+        abbr {
+          display: inline-block;
+          background-color: $theme-color;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+      }
+      span {
+        display: block;
+      }
+      .title {
+        font-weight: bolder;
+      }
+      .author {
+        a {
+          border-bottom: 1px dashed $theme-color;
+          &:hover {
+              border-bottom-style: solid;
+              text-decoration: none;
+          }
+        }
+        > em {
+          border-bottom: 1px solid;
+          font-style: normal;
+        }
+      }
+      em.star {
+        border-bottom: none;
+        color: $theme-color;
+        font-style: normal;
+      }
+      a.featured_content {
+        cursor: pointer;
+      }
+      a.audit {
+        cursor: default;
+      }
+      .hidden {
+        font-size: 0.875rem;
+        max-height: 0px;
+        overflow: hidden;
+        text-align: justify;
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+
+        p {
+          line-height: 1.4em;
+          margin: 10px;
+        }
+        pre {
+          font-size: 1em;
+          line-height: 1.4em;
+          padding: 10px;
+        }
+      }
+      .hidden.open {
+        max-height: 100em;
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+      }
+      span.hidden {
+        border: dashed 1px white;
+      }
+      span.hidden.open {
+        border-color: $grey-color;
+      }
+    }
+  }
+}
+
+// Honors
+.honor {
+  margin-bottom: 1em;
+
+  .year {
+    float: left;
+    color: grey;
+  }
+
 }

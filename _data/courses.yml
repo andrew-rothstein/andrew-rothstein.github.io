@@ -1,0 +1,105 @@
+- name: Mathematics and Programming
+  courses:
+  - title: An Introduction to Interactive Programmng in Python
+    location: Rice University (online course on Coursera.org)
+    year: 2012
+    duration: 8 weeks
+    link: https://www.coursera.org/learn/interactive-python-1
+    certificate: "Coursera interactivepython 2014.pdf"
+  - title: Machine Learning
+    location: Stanford University (online course on Coursera.org)
+    year: 2013
+    duration: 10 weeks
+    link: https://www.coursera.org/learn/machine-learning
+    certificate: "Coursera_ml_2012.pdf"
+  - title: Principles of Computing
+    location: Rice University (online course on Coursera.org)
+    year: 2014
+    duration: 7 weeks
+    link: https://www.coursera.org/learn/principles-of-computing-1
+    certificate: "Coursera_principlescomputing_2014.pdf"
+  - title: "Calculus: Single Variable"
+    location: University of Pennsylvania (online course on Coursera.org)
+    year: 2014
+    duration: 13 weeks
+    link: https://www.coursera.org/learn/single-variable-calculus
+    certificate: "Coursera calcsing 2014.pdf"
+  - title: Tensorflow in Practice Specialization
+    location: DeepLearning.ai (online course on Coursera.org)
+    year: 2020
+    duration: 4 x 4 weeks
+    link: https://www.coursera.org/specializations/tensorflow-in-practice
+    certificate: 
+    audit: true
+
+
+- name: Neuroscience
+  courses:
+  - title: Medical Neuroscience
+    location: Duke University (online course on Coursera.org)
+    year: 2013
+    duration: 13 weeks
+    link: https://www.coursera.org/learn/medical-neuroscience
+    certificate: "Coursera medicalneuro 2014.pdf"
+  - title: Basic Neuroscience Research Techniques Observership Tour
+    location: Shefa Neuroscience Research Center (Tehran, Iran)
+    year: 2013
+    duration: 9 days
+    link: 
+    certificate:
+    content: Histological and staining methods, Western Immunoblotting, PCR and Electrophysiology
+  - title: Neuroimaging Meta-analysis Workshop
+    location: 5th Congress of Iranian Human Brain Mapping (Tehran, Iran)
+    year: 2018
+    duration: 1 day
+    link: 
+    certificate:
+  - title: Functional and Structural Magnetic Resonance Imaging Workshop
+    location: 5th Congress of Iranian Human Brain Mapping (Tehran, Iran)
+    year: 2018
+    duration: 3 days
+    link: 
+    certificate: 
+  - title: IBRO-VLTP Course in Neuroscience
+    location: Tarbiat Modares University (Tehran, Iran)
+    year: 2019
+    duration: 8 days
+    link: 
+    certificate: "IBRO.jpg"
+    content: molecular mechanisms of synaptic transmision and plasticity, structural
+             and functional organization of the visual system and auditory systems,
+             models of real neurons
+
+- name: Medical Research
+  courses:
+  - title: 1st National Research Methods Summer School
+    location: Mashhad University of Medical Sciences (Mashhad, Iran)
+    year: 2012
+    duration: 6 days
+    link: 
+    certificate: 
+  - title: SPSS Workshop
+    location: Mashhad University of Medical Sciences (Mashhad, Iran)
+    year: 2013
+    duration: 3 days
+    link: 
+    certificate:
+  - title: Meta-analysis Workshop
+    location: Mashhad University of Medical Sciences (Mashhad, Iran)
+    year: 2014
+    duration: 8 sessions
+    link: 
+    certificate:
+  - title: Gastroenterology Systematic Reviews Marathon
+    location: Mashhad University of Medical Sciences (Mashhad, Iran)
+    year: 2016
+    duration: 6 days
+    link: 
+    certificate: 
+  - title: Statistics in Medicine
+    location: Stanford University (online course on edX.org)
+    year: 2016
+    duration: 9 weeks
+    link: 
+    certificate: 
+    audit: true
