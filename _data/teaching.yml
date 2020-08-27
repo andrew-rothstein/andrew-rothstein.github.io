@@ -6,6 +6,7 @@
   location: Online course on Zoom
   year: 2020
   duration: 3 weeks
+  certificate: "nma-certificate.pdf"
   link: https://github.com/NeuromatchAcademy/course-content
   content: "Topics covered: Modeling practice, Model fitting, GLMs, Dimensionality reduction,
            Bayesian statistics, Linear dynamical systems, Markov process, 

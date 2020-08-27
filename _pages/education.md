@@ -48,7 +48,7 @@ order: 2
 		      {% if entry.audit %}
 		      [<a class="certificate">audit only</a>]
   		      {% elsif entry.certificate %}
-		      [<a href="{{entry.certificate}}" class="certificate">certificate</a>]
+		      [<a href="{{ entry.certificate | prepend: '/assets/pdf/' | relative_url }}" target="_blank" class="certificate">certificate</a>]
 		      {% endif %}
 		    </span>
 		    {% if entry.content %}
