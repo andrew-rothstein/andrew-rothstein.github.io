@@ -308,12 +308,13 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
+    list-style: square;
     padding: 0;
+    padding-left: 20px;
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -402,12 +403,13 @@ footer.sticky-bottom {
   }
 
   ol {
-    list-style: none;
+    list-style: square;
     padding: 0;
+    padding-left: 20px;
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;

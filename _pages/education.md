@@ -72,7 +72,7 @@ order: 2
 		{% assign sorted_courses = category.courses | sort: "year" | reverse %}
 		{% for entry in sorted_courses %}
 		<li>		
-			<b>{{entry.title}}</b> ({{entry.duration}})<br>
+			<b>{{entry.title}}</b> ({{entry.duration}})<br> 
 			{{entry.location}}, {{entry.year}}<br>
 		    <span class="links">
 		      {% if entry.content %}

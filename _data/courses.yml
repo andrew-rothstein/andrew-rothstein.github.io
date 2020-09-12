@@ -1,52 +1,4 @@
-- name: Mathematics and Programming
-  courses:
-  - title: An Introduction to Interactive Programmng in Python
-    location: Rice University (online course on Coursera.org)
-    year: 2012
-    duration: 8 weeks
-    link: https://www.coursera.org/learn/interactive-python-1
-    certificate: "Coursera interactivepython 2014.pdf"
-  - title: Machine Learning
-    location: Stanford University (online course on Coursera.org)
-    year: 2013
-    duration: 10 weeks
-    link: https://www.coursera.org/learn/machine-learning
-    certificate: "Coursera_ml_2012.pdf"
-  - title: Principles of Computing
-    location: Rice University (online course on Coursera.org)
-    year: 2014
-    duration: 7 weeks
-    link: https://www.coursera.org/learn/principles-of-computing-1
-    certificate: "Coursera_principlescomputing_2014.pdf"
-  - title: "Calculus: Single Variable"
-    location: University of Pennsylvania (online course on Coursera.org)
-    year: 2014
-    duration: 13 weeks
-    link: https://www.coursera.org/learn/single-variable-calculus
-    certificate: "Coursera calcsing 2014.pdf"
-  - title: Tensorflow in Practice Specialization
-    location: DeepLearning.ai (online course on Coursera.org)
-    year: 2020
-    duration: 4 x 4 weeks
-    link: https://www.coursera.org/specializations/tensorflow-in-practice
-    certificate: 
-    audit: true
-  - title: Computational Pschiatry Course
-    location: University of Zurich & ETH Zurich (online course on Zoom)
-    year: 2020
-    duration: 1 weeks
-    link: https://www.translationalneuromodeling.org/cpcourse/
-    content: overview of psychiatric disorders, bayesian modeling principles (how to build a model, 
-              model fitting, model inversion and model selection), reinforcement learning, models of 
-              perception (psychophysics, bayesian models of perception, predicitve coding), 
-              models of action selection (Markov Decision Processes, active inference, 
-              drift diffusion models), models of connectivity (dynamic causal modeling and advanced models of connectivity),
-              machine learning, practical applications of computational models to problems from psychiatry
-              + a practical session on using normative modeling on neuroimaging data
-
-
-
-- name: Neuroscience
+- name: Neuroscience and Neuroimaging
   courses:
   - title: Medical Neuroscience
     location: Duke University (online course on Coursera.org)
@@ -82,13 +34,59 @@
     content: molecular mechanisms of synaptic transmision and plasticity, structural
              and functional organization of the visual system and auditory systems,
              models of real neurons
+  - title: Computational Pschiatry Course
+    location: University of Zurich & ETH Zurich (online course on Zoom)
+    year: 2020
+    duration: 1 week
+    link: https://www.translationalneuromodeling.org/cpcourse/
+    content: overview of psychiatric disorders, bayesian modeling principles (how to build a model, 
+              model fitting, model inversion and model selection), reinforcement learning, models of 
+              perception (psychophysics, bayesian models of perception, predicitve coding), 
+              models of action selection (Markov Decision Processes, active inference, 
+              drift diffusion models), models of connectivity (dynamic causal modeling and advanced models of connectivity),
+              machine learning, practical applications of computational models to problems from psychiatry
+              + a practical session on using normative modeling on neuroimaging data
 
-- name: Medical Research
+- name: Mathematics and Programming
+  courses:
+  - title: An Introduction to Interactive Programmng in Python
+    location: Rice University (online course on Coursera.org)
+    year: 2012
+    duration: 8 weeks
+    link: https://www.coursera.org/learn/interactive-python-1
+    certificate: "Coursera interactivepython 2014.pdf"
+  - title: Machine Learning
+    location: Stanford University (online course on Coursera.org)
+    year: 2013
+    duration: 10 weeks
+    link: https://www.coursera.org/learn/machine-learning
+    certificate: "Coursera_ml_2012.pdf"
+  - title: Principles of Computing
+    location: Rice University (online course on Coursera.org)
+    year: 2014
+    duration: 7 weeks
+    link: https://www.coursera.org/learn/principles-of-computing-1
+    certificate: "Coursera_principlescomputing_2014.pdf"
+  - title: "Calculus: Single Variable"
+    location: University of Pennsylvania (online course on Coursera.org)
+    year: 2014
+    duration: 13 weeks
+    link: https://www.coursera.org/learn/single-variable-calculus
+    certificate: "Coursera calcsing 2014.pdf"
+  - title: Tensorflow in Practice Specialization
+    location: DeepLearning.ai (online course on Coursera.org)
+    year: 2020
+    duration: 4 x 4 weeks
+    link: https://www.coursera.org/specializations/tensorflow-in-practice
+    certificate: 
+    audit: true
+
+- name: Clinical Research
   courses:
   - title: 1st National Research Methods Summer School
     location: Mashhad University of Medical Sciences (Mashhad, Iran)
     year: 2012
-    duration: 6 days
+    duration: 1 week
     link: 
     certificate: 
   - title: SPSS Workshop
@@ -106,7 +104,7 @@
   - title: Gastroenterology Systematic Reviews Marathon
     location: Mashhad University of Medical Sciences (Mashhad, Iran)
     year: 2016
-    duration: 6 days
+    duration: 1 week
     link: 
     certificate: 
   - title: Statistics in Medicine
