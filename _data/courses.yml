@@ -31,6 +31,19 @@
     link: https://www.coursera.org/specializations/tensorflow-in-practice
     certificate: 
     audit: true
+  - title: Computational Pschiatry Course
+    location: University of Zurich & ETH Zurich (online course on Zoom)
+    year: 2020
+    duration: 1 weeks
+    link: https://www.translationalneuromodeling.org/cpcourse/
+    content: overview of psychiatric disorders, bayesian modeling principles (how to build a model, 
+              model fitting, model inversion and model selection), reinforcement learning, models of 
+              perception (psychophysics, bayesian models of perception, predicitve coding), 
+              models of action selection (Markov Decision Processes, active inference, 
+              drift diffusion models), models of connectivity (dynamic causal modeling and advanced models of connectivity),
+              machine learning, practical applications of computational models to problems from psychiatry
+              + a practical session on using normative modeling on neuroimaging data
+
 
 
 - name: Neuroscience
