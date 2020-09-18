@@ -39,6 +39,7 @@
     year: 2020
     duration: 1 week
     link: https://www.translationalneuromodeling.org/cpcourse/
+    certificate: "CPC2020_certificate.pdf"
     content: overview of psychiatric disorders, bayesian modeling principles (how to build a model, 
               model fitting, model inversion and model selection), reinforcement learning, models of 
               perception (psychophysics, bayesian models of perception, predicitve coding), 
