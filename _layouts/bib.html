@@ -63,13 +63,15 @@
       <span class="periodical">
       {% if entry.type == "article" %}
         {% if entry.sjrq == "NA" %}
-        {{entry.journaltitle}} <strong class="sjrq NA_Q">NQ</strong>, 
+        {{entry.journal}} <strong class="sjrq NA_Q">NQ</strong>, 
         {% else %}
-        {{entry.journaltitle}} <strong class="sjrq Q{{entry.sjrq}}">Q{{entry.sjrq|string}}</strong>, 
+        {{entry.journal}} <strong class="sjrq Q{{entry.sjrq}}">Q{{entry.sjrq|string}}</strong>, 
         {% endif %}
-        
+
+      {% elsif entry.type == "preprint" %}
+        {{entry.journal}}, 
       {% elsif entry.type == "inproceedings" %}
-        <em>{{entry.booktitle}}</em>, {{entry.location}}, 
+        {{entry.booktitle}}, {{entry.location}}, 
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
@@ -84,23 +86,28 @@
     {% if entry.experience %}
       [<a class="experience">my experience</a>]
     {% endif %}
+    {% if entry.doi %}
+      [<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank">doi</a>]
+    {% endif %}
+
     {% if entry.arxiv %}
       [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
     {% endif %}
-    {% if entry.html %}
+<!--     {% if entry.html %}
       [<a href="{{ entry.html }}" target="_blank">HTML</a>]
     {% endif %}
+ -->    
     {% if entry.pdf %}
-      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">PDF</a>]
+      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">pdf</a>]
     {% endif %}
     {% if entry.supp %}
       [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Supp</a>]
     {% endif %}
     {% if entry.poster %}
-      [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Poster</a>]
+      [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">poster</a>]
     {% endif %}
     {% if entry.slides %}
-      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Slides</a>]
+      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">slides</a>]
     {% endif %}
     {% if entry.code %}
       [<a href="{{ entry.code }}" target="_blank">Code</a>]
