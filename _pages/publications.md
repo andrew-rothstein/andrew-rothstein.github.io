@@ -23,5 +23,5 @@ order: 4
 {% bibliography -f conference_abstracts %}
 
 \* corresponding author<br>
-<strong class="sjrq NA_Q">NQ</strong> not in SJR ranking
+<!-- <strong class="sjrq NA_Q">NQ</strong> not in SJR ranking -->
 </div>

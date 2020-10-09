@@ -42,7 +42,7 @@
     certificate: "CPC2020_certificate.pdf"
     content: overview of psychiatric disorders, bayesian modeling principles (how to build a model, 
               model fitting, model inversion and model selection), reinforcement learning, models of 
-              perception (psychophysics, bayesian models of perception, predicitve coding), 
+              perception (psychophysics, Bayesian models of perception, predicitve coding), 
               models of action selection (Markov Decision Processes, active inference, 
               drift diffusion models), models of connectivity (dynamic causal modeling and advanced models of connectivity),
               machine learning, practical applications of computational models to problems from psychiatry
