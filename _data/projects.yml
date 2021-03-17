@@ -1,28 +1,23 @@
+- title: 'Thalamic shape abnormalities in multiple sclerosis patients with fatigue'
+  supervisor: Dr. Jalal Kargar
+  stage: accepted for publication
+  summary: 
+  tools: FSL FIRST, Scikit-learn
+- title: 'The ENIGMA-Sleep group: challenges, opportunities, and the road map'
+  supervisor: Dr. Masoud Tahmasian
+  stage: accepted for publication
+  summary: 
+  tools: Review
+- title: 'Structural and functional neuroimaging of behavioral variant frontotemporal dementia: a coordinate-based meta-analysis'
+  supervisor: Dr. Masoud Tahmasian
+  stage: submitted
+  summary: 
+  tools: ALE meta-analysis
 - title: 'Brain mediators of the vicarious facilitation of pain'
   supervisor: Dr. Ali Khatibi
   stage: manuscript in preparation
   summary:
   tools: fmriprep, FSL feat, MediationToolbox
-- title: 'Thalamic shape abnormalities in multiple sclerosis patients with fatigue'
-  supervisor: Dr. Jalal Kargar
-  stage: manuscript in preparation
-  summary: 
-  tools: FSL FIRST, Scikit-learn
-- title: 'The ENIGMA-Sleep group: challenges, opportunities, and the road map'
-  supervisor: Dr. Masoud Tahmasian
-  stage: manuscript in preparation
-  summary: 
-  tools: Review
-- title: 'Significant findings in neuroimaging studies; at what price?'
-  supervisor: Dr. Masoud Tahmasian
-  stage: manuscript in preparation
-  summary: 
-  tools: Viewpoint
-- title: 'Structural and functional neuroimaging of behavioral variant frontotemporal dementia: a coordinate-based meta-analysis'
-  supervisor: Dr. Masoud Tahmasian
-  stage: manuscript in preparation
-  summary: 
-  tools: ALE meta-analysis
 - title: 'Neural correlates of motor learning: an activation likelihood estimation meta-analysis'
   supervisor: Dr. Ali Khatibi & Dr. Masoud Tahmasian
   stage: ongoing data extraction
@@ -30,7 +25,7 @@
   tools: ALE meta-analysis
 - title: 'Structural and functional brain effects of antidepressants in major depressive disorder: an ALE meta-analysis'
   supervisor: Dr. Masoud Tahmasian
-  stage: ongoing study selection
+  stage: ongoing data extraction
   summary: 
   tools: ALE meta-analysis
 - title: "Insomnia symptoms and altered functional connectivity of salience network in patients with Alzhimer's disease and mild cognitive impairment"
