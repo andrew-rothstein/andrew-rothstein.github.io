@@ -1,0 +1,140 @@
+---
+---
+
+<div class="row">
+  <!--
+  <div class="col-sm-2 abbr">
+  {% if entry.abbr %}
+    {% if site.data.venues[entry.abbr] %}
+    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+    {% else %}
+    <abbr class="badge">{{entry.abbr}}</abbr>
+    {% endif %}
+  {% endif %}
+  </div>
+-->
+
+  <div id="{{entry.key}}" class="col-sm-12">
+    {% if entry.type == "thesis" %}
+      {{reference}}
+    {% else %}
+      <span class="title">{{entry.title}}</span>
+      <span class="author">
+        {% for author in entry.author_array %}
+          {% if author.last == entry.corresponding %}
+            {% assign is_cr = "*" %}
+          {% else %}
+            {% assign is_cr = "" %}
+          {% endif %}
+          
+          {% if forloop.length == 1 %}
+            {% if author.last == site.scholar.last_name %}
+              <em>{{author.last}} {{author.first}}</em>{{is_cr}}
+            {% else %}
+              {{author.last}} {{author.first | slice: 0, 1}}{{is_cr}}
+            {% endif %}
+          {% else %}
+            {% unless forloop.last %}
+              {% if author.last == site.scholar.last_name %}
+                <em>{{author.last}} {{author.first | slice: 0, 1}}</em>{{is_cr}},
+              {% else %}
+                {% if site.data.coauthors[author.last] %}
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>{{is_cr}},
+                {% else %}
+                  {{author.last}} {{author.first | slice: 0, 1}}{{is_cr}},
+                {% endif %}
+              {% endif %}
+            {% else %}
+              {% if author.last == site.scholar.last_name %}
+                and <em>{{author.last}} {{author.first | slice: 0, 1}}</em>{{is_cr}}
+              {% else %}
+                {% if site.data.coauthors[author.last] %}
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>{{is_cr}}
+                {% else %}
+                  and {{author.last}} {{author.first | slice: 0, 1}}{{is_cr}}
+                {% endif %}
+              {% endif %}
+            {% endunless %}
+          {% endif %}
+
+        {% endfor %}
+      </span>
+
+      <span class="periodical">
+      {% if entry.type == "article" %}
+        {% if entry.sjrq == "NA" %}
+        {{entry.journal}} <strong class="sjrq NA_Q">NQ</strong>, 
+        {% else %}
+        {{entry.journal}} <strong class="sjrq Q{{entry.sjrq}}">Q{{entry.sjrq|string}}</strong>, 
+        {% endif %}
+
+      {% elsif entry.type == "preprint" %}
+        {{entry.journal}}, 
+      {% elsif entry.type == "inproceedings" %}
+        {{entry.booktitle}}, {{entry.location}}, 
+      {% endif %}
+      {% if entry.year %}
+        {{entry.year}}
+      {% endif %}
+      </span>
+    {% endif %}
+
+    <span class="links">
+    {% if entry.abstract %}
+      [<a class="abstract">abstract</a>]
+    {% endif %}
+    {% if entry.experience %}
+      [<a class="experience">my experience</a>]
+    {% endif %}
+    {% if entry.doi %}
+      [<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank">doi</a>]
+    {% endif %}
+
+    {% if entry.arxiv %}
+      [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
+    {% endif %}
+<!--     {% if entry.html %}
+      [<a href="{{ entry.html }}" target="_blank">HTML</a>]
+    {% endif %}
+ -->    
+    {% if entry.pdf %}
+      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">pdf</a>]
+    {% endif %}
+    {% if entry.supp %}
+      [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Supp</a>]
+    {% endif %}
+    {% if entry.poster %}
+      [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">poster</a>]
+    {% endif %}
+    {% if entry.slides %}
+      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">slides</a>]
+    {% endif %}
+    {% if entry.code %}
+      [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    {% endif %}
+
+    {% if entry.tags %}
+      {% assign tags = entry.tags | split: ", " %}
+      {% for tag in tags %}
+      <strong>{{tag}}</strong>
+      {% endfor %}
+    {% endif %}
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    {% if entry.abstract %}
+    <span class="abstract hidden">
+      <p>{{ entry.abstract }}</p>
+    </span>
+    {% endif %}
+
+    {% if entry.experience %}
+    <span class="experience hidden">
+      <p>{{ entry.experience }}</p>
+    </span>
+    {% endif %}
+
+
+  </div>
+</div>
