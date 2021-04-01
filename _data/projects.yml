@@ -1,8 +1,3 @@
-- title: 'Thalamic shape abnormalities in multiple sclerosis patients with fatigue'
-  supervisor: Dr. Jalal Kargar
-  stage: accepted for publication
-  summary: 
-  tools: FSL FIRST, Scikit-learn
 - title: 'The ENIGMA-Sleep group: challenges, opportunities, and the road map'
   supervisor: Dr. Masoud Tahmasian
   stage: accepted for publication
@@ -32,4 +27,4 @@
   supervisor: Dr. Masoud Tahmasian
   stage: ongoing analyses
   summary: 
-  tools: fmirprep, FSL melodic
+  tools: brainlife, fmirprep, FSL melodic
