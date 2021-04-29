@@ -308,6 +308,12 @@ footer.sticky-bottom {
     background-color: rgb(221, 90, 78);
   }
 
+  strong.impact_factor {
+    padding: 1px 4px;
+    font-size: 0.8em;
+    background-color: rgb(0, 162, 184);
+  }
+
   ol.bibliography {
     list-style: square;
     padding: 0;
@@ -330,9 +336,15 @@ footer.sticky-bottom {
         display: block;
       }
       .title {
-        font-weight: bolder;
+        font-weight: 500;
+        font-size: 1.05em;
+      }
+      .journal-title {
+        display: inline;
+        font-weight: 400;
       }
       .author {
+        font-size: 0.95em;
         a {
           border-bottom: 1px dashed $theme-color;
           &:hover {
@@ -349,6 +361,9 @@ footer.sticky-bottom {
         border-bottom: none;
         color: $theme-color;
         font-style: normal;
+      }
+      .links {
+        font-size: 0.9em;
       }
       //a.abstract, a.bibtex {
       //  cursor: pointer;
@@ -423,6 +438,7 @@ footer.sticky-bottom {
       }
       .links a {
         color: black;
+        font-size: 0.9em;
       }
       span {
         display: block;

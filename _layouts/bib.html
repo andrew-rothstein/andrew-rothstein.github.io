@@ -62,19 +62,21 @@
 
       <span class="periodical">
       {% if entry.type == "article" %}
-        {% if entry.sjrq == "NA" %}
-        {{entry.journal}} <strong class="sjrq NA_Q">NQ</strong>, 
-        {% else %}
-        {{entry.journal}} <strong class="sjrq Q{{entry.sjrq}}">Q{{entry.sjrq|string}}</strong>, 
+        <span class="journal-title">{{entry.journal}}</span>
+        {% if entry.sjrq %}
+          <strong class="sjrq Q{{entry.sjrq}}">Q{{entry.sjrq|string}}</strong>
+        {% endif %}
+        {% if entry.impactfactor %}
+         <strong class="impact_factor">IF {{entry.impactfactor}}</strong>
         {% endif %}
 
       {% elsif entry.type == "preprint" %}
-        {{entry.journal}}, 
+        <span class="journal-title">{{entry.journal}}</span>
       {% elsif entry.type == "inproceedings" %}
-        {{entry.booktitle}}, {{entry.location}}, 
+      <span class="journal-title">{{entry.booktitle}}, {{entry.location}}</span>
       {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
+      {% if entry.date %}
+      {{entry.date | date: '%Y'}}
       {% endif %}
       </span>
     {% endif %}
@@ -87,7 +89,7 @@
       [<a class="experience">my experience</a>]
     {% endif %}
     {% if entry.doi %}
-      [<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank">doi</a>]
+      [<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank">url</a>]
     {% endif %}
 
     {% if entry.arxiv %}

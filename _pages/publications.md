@@ -9,13 +9,13 @@ order: 4
 
 <div class="publications-auto" markdown="1">
 
-### Preprints
-{% bibliography -f preprints %}
+### Papers
+{% bibliography -f papers %}
 
 ---
 
-### Papers
-{% bibliography -f papers %}
+### Preprints
+{% bibliography -f preprints %}
 
 ---
 
