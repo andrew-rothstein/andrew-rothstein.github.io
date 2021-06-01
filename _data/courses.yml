@@ -47,11 +47,20 @@
               drift diffusion models), models of connectivity (dynamic causal modeling and advanced models of connectivity),
               machine learning, practical applications of computational models to problems from psychiatry
               + a practical session on using normative modeling on neuroimaging data
+  - title: Dynamical Causal Modelling Workshop
+    location: 7th Iranian Human Brain Mapping Congress (Tehran, Iran)
+    year: 2020
+    duration: 1 day
   - title: HIBALL Winter School on BigBrain Data and Tools
     location: Online on Zoom
     year: 2021
     duration: 2 days
     link: https://bigbrainproject.org/winter-school.html
+  - title: Brain Connectivity Workshop
+    location: Online on Zoom
+    year: 2021
+    duration: 4 days
+    link: https://bcw-2021.com/
 
 - name: Mathematics and Programming
   courses:

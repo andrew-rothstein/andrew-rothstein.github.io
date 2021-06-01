@@ -1,4 +1,4 @@
-- title: Meta-analysis of prognostic and diagnostic studies workshop
+- title: Meta-Analysis of Prognostic and Diagnostic Studies Workshop
   location: Mashhad University of Medical Sciences (Mashhad, Iran)
   year: 2017
   duration: 1 session
@@ -14,4 +14,7 @@
            Markov decision process, Reinforcement learning, Modeling real neuron,
            Modeling neuronal networks using Wilson-Cowen model, Causality, Deep learning (with Pytorch),
            Autoencoders"
-
+- title: Python in Data Science
+  location: Online course
+  year: 2021
+  duration: ~ 40 sessions(ongoing)
