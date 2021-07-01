@@ -1,22 +1,20 @@
 ---
-layout: about
-title: about
+layout: home
+title: <strong>Andrew P. Rothstein</strong>
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://deohs.washington.edu/">DEOHS, University of Washington</a>. Postdoctoral Scholar.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 
   address:
 
 news: false
 social: true
 order: 0
 ---
+{% include _links_library.md %}
 
-I have received my M.D. from Mashhad University of Medical Sciences (Mashhad, Iran), and I'm currently working as a non-resident researcher in the Institute of Medical Science and Technology at Shahid Beheshti University (Tehran, Iran), doing neuroimaging research under the supervision of <a href="http://en.sbu.ac.ir/Research_Institutes/MedicalSci/Pages/Dr.-Masoud-Tahmasian.aspx">Dr. Masoud Tahmasian</a>.
+*This site is currently under construction*
 
-I use coordinate-based meta-analysis and functional and structural neuroimaging methods to better understand the brain abnormalities in neuropsychiatric disorders such as depression, multiple sclerosis, and sleep disorders, as well as the normal functioning of human brain in e.g. nociception and motor learning. My main interest is using advanced computational methods to do model-driven research on psychiatric disorders, i.e., computational psychiatry. In addition, I am interested in developing and improving methods of analyzing neuroimaging data.
-
-In my spare time, I enjoy programming and building small web/desktop applications, cooking, playing video games, and watching TV shows.
-
+I am a biologist specializing in population genomics, disease ecology, and evolutionary biology. Currently, I am a postdoctoral scholar in the [Levy lab] at University of Washington, focused on enteric (food and waterborne) diseases using metagenomics and phylogenomic methods. Recent work focused leveraging genomics to mitigate emerging wildlife diseases and conservation of protected species. For more information about my work, see [projects] and [publications].
