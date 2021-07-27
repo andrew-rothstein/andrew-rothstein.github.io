@@ -6,7 +6,7 @@ description: <a href="https://deohs.washington.edu/">DEOHS, University of Washin
 
 profile:
   align: right
-  image: 
+  image: me.jpg
   address:
 
 news: false
