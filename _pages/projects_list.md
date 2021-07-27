@@ -15,7 +15,7 @@ Human movement influences the epidemiology of pathogens.  Increased rates of tra
 
 * [EcoZur nextstrain build](https://nextstrain.org/community/andrew-rothstein/ecozur-roary)
 
-<center><img src="/assets/img/ecozur_nextstrain.jpg" width="500"></center>
+<center><img class="img-fluid" src="/assets/img/ecozur_nextstrain.jpg" width="500"></center>
 <center><small >Predicted movement of <i>E. coli</i> across urban and rural coastal Ecuador</small></center>
 
 ## spread & emergence of amphibian chytrid fungus
@@ -28,7 +28,7 @@ Amphibians are declining worldwide. One of the major drivers of amphibian declin
 *  [BdGPL nextstrain build](https://nextstrain.org/community/andrew-rothstein/bd-gpl/auspice/viz)
 *  [Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus Batrachochytrium dendrobatidis. *Molecular Ecology Resources*](doi:10.1111/1755-0998.12675)
 
-<center><img src="/assets/img/beast_bd.jpeg" width="500"></center>
+<center><img class="img-fluid" src="/assets/img/beast_bd.jpeg" width="500"></center>
 <center><small >Time dated phlyogeny of Global Panzootic Bd</small></center>
 
 ## applied conservation for an endangered amphibian
@@ -40,7 +40,7 @@ In the Sierras Nevada of California, mountian yellow-legged frogs (*Rana sierrae
 *  [Stepping into the past to conserve the future: archived skin swabs from extant and extinct populations inform genetic management of an endangered amphibian.*Molecular Ecology*](https://doi.org/10.1111/mec.15515)
 
 
-<center><img src="/assets/img/rana_1.jpeg" width="500"></center>
+<center><img class="img-fluid" src="/assets/img/rana_1.jpeg" width="500"></center>
 <center><small >Photo by Issac Chelman</small></center>
 
 ## novel methods in generating -omics data
@@ -52,5 +52,5 @@ Throughout my career I have been involved in developing new ways to sample, trac
 * [Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus Batrachochytrium dendrobatidis. *Molecular Ecology Resources*](doi:10.1111/1755-0998.12675)
 * [WisePair: a computer program for individual matching in genetic tracking studies. *Molecular Ecology Resources*.]( https://doi.org/10.1111/1755-0998.12590)
 
-<center><img src="/assets/img/swab_diagram.jpg" width="500"></center>
+<center><img class="img-fluid" src="/assets/img/swab_diagram.jpg" width="500"></center>
 <center><small >Simplified swab genotyping workflow</small></center>
