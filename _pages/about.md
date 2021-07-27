@@ -17,4 +17,4 @@ order: 0
 
 I am a biologist specializing in population genomics, disease ecology, and evolutionary biology. Currently, I am a postdoctoral scholar in the [Levy lab] at University of Washington, focused on enteric (food and waterborne) diseases using metagenomics and phylogenomic methods. Recent work focused leveraging genomics to mitigate emerging wildlife diseases and conservation of protected species. For more information about my work, see [projects] and [publications].
 
-<center><img src="/assets/img/phlyogeny.png" width="400" height="auto"><center/>
+<center><img class="img-fluid" src="/assets/img/phlyogeny.png" width="400" height="auto"><center/>
