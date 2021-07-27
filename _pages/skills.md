@@ -7,27 +7,36 @@ nav: true
 order: 3
 ---
 
-### WetLab 
+**WetLab**
 
 DNA/RNA extraction, PCR, qPCR, Illumuina library prep, targeted sequencing prep, amplicon sequencing prep.
 
-### Code
+---
+**Code**
 
-R, Python, bash
+R (preferred), Python, bash
 
-### Bioinformatics
+---
+
+**Bioinformatics**
 
 targeted capture design, multiplex design, alignment, assembly, annotation, phylogenomics (
 RAxML, BEAST, iqTREE, nextstrain, TreeTime), and variant calling with GATK, samtools, ANGSD, and Freebayes
 
-### Computing/Data Management
+---
+
+**Computing/Data Management**
 
 SLURM, Unix tools, git, github, markdown
 
-### Statistics
+---
+
+**Statistics**
 
 Linear models, mixed models, multivariate, classical statistics, Bayesian statistics
 
-### Geospatial
+---
+
+**Geospatial**
 
 Analysis & visualization in R (sp, sf, ggplot2, raster). Experience with ArcGIS

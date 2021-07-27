@@ -7,14 +7,26 @@ nav: true
 order: 1
 ---
 
-### PhD
+## PhD
 
-University of California, Berkeley	2016-2020 	Environmental Sci., Policy, and Management
+**University of California, Berkeley**
+	
+2016-2020 	
 
-### MSc
+Environmental Sci., Policy, and Management
 
-Western Washington University	2012-2015 	 	Biology
+## MSc
 
-### BSc 
+**Western Washington University**
 
-University of Vermont 	 	 	2007-2011 		Natural Resources
+2012-2015 	 	
+
+Biology
+
+## BSc
+
+**University of Vermont**	 	 	
+
+2007-2011 		
+
+Natural Resources
