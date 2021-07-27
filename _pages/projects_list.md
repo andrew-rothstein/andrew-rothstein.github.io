@@ -26,7 +26,7 @@ Amphibians are declining worldwide. One of the major drivers of amphibian declin
 
 * 	[Divergent regional evolutionary histories of a devastating global amphibian pathogen. *Proc. R. Soc. B*](http://doi.org/10.1098/rspb.2021.0782)
 *  [BdGPL nextstrain build](https://nextstrain.org/community/andrew-rothstein/bd-gpl/auspice/viz)
-*  [Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus Batrachochytrium dendrobatidis. *Molecular Ecology Resources*](doi:10.1111/1755-0998.12675)
+*  [Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus Batrachochytrium dendrobatidis. *Molecular Ecology Resources*](https://doi.org/10.1111/1755-0998.12675)
 
 <center><img class="img-fluid" src="/assets/img/beast_bd.jpeg" width="500"></center>
 <center><small >Time dated phlyogeny of Global Panzootic Bd</small></center>
@@ -49,8 +49,8 @@ Throughout my career I have been involved in developing new ways to sample, trac
 
 **Relevant products**
 
-* [Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus Batrachochytrium dendrobatidis. *Molecular Ecology Resources*](doi:10.1111/1755-0998.12675)
-* [WisePair: a computer program for individual matching in genetic tracking studies. *Molecular Ecology Resources*.]( https://doi.org/10.1111/1755-0998.12590)
+* [Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus Batrachochytrium dendrobatidis. *Molecular Ecology Resources*](https://doi.org/10.1111/1755-0998.12675)
+* [WisePair: a computer program for individual matching in genetic tracking studies. *Molecular Ecology Resources*.](https://doi.org/10.1111/1755-0998.12590)
 
 <center><img class="img-fluid" src="/assets/img/swab_diagram.jpg" width="500"></center>
 <center><small >Simplified swab genotyping workflow</small></center>
