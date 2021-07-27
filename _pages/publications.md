@@ -16,6 +16,8 @@ order: 4
 
 __9.__  __Rothstein, A.P.__, Byrne A.Q., Knapp R.A., Briggs C.J., Voyles J., Richards-Zawacki C.L. and Rosenblum E.B. Divergent regional evolutionary histories of a devastating global amphibian pathogen. *Proc. R. Soc. B*. [http://doi.org/10.1098/rspb.2021.0782](http://doi.org/10.1098/rspb.2021.0782). <small><a href="/assets/pdf/Rothstein_RSPB_2021.pdf"><button>Download PDF</button></a></small>
 
+---
+
 ### 2020
 
 __8.__  __Rothstein, A.P.__ [Managing disease-related amphibian declines using genomics](https://www.proquest.com/docview/2509614812?pq-origsite=gscholar&fromopenview=true). *Doctoral dissertation*, University of California, Berkeley, Berkeley, CA. <small><a href="/assets/pdf/dissertation_berkeley_2020.pdf"><button>Download PDF</button></a></small>
@@ -29,16 +31,18 @@ __5.__ Hernández-Gómez O., Byrne A.Q., Gunderson A.R., Jenkinson T.S., Noss C.
 
 ---
 
+### 2017
+
 __4.__ Byrne, A.Q., __Rothstein, A.P.__, Poorten, T.J., Erens, J., Settles, M.L., & Rosenblum, E.B.
 Unlocking the story in the swab: A new genotyping assay for the amphibian chytrid fungus *Batrachochytrium dendrobatidis*. *Molecular Ecology Resources*. [doi:10.1111/1755-0998.12675](https://doi.org/10.1111/1755-0998.12675). <small><a href="/assets/pdf/Byrne_Rothstein_MolEcolRes_2017.pdf"><button>Download PDF</button></a></small>
 
 __3.__ Des Roches, S., Sollmann, R., Calhoun, K., __Rothstein, A.P.__. & Rosenblum, E.B. Survival by genotype: patterns at Mc1r are not black and white at the White Sands ecotone. *Molecular Ecology*. [doi:/10.1111/mec.13894](https://doi.org/10.1111/mec.13894). <small><a href="/assets/pdf/DesRoches_MolEcol_2017.pdf"><button>Download PDF</button></a></small>
 
+__2.__ __Rothstein, A.P.__, McLaughlin, R., Acevedo-Gutiérrez, A. & Schwarz, D. WisePair: a computer program for individual matching in genetic tracking studies. *Molecular Ecology Resources*. [doi:/10.1111/1755-0998.12590](https://doi.org/10.1111/1755-0998.12590). <small><a href="/assets/pdf/Rothstein_MolEcolRes_2017.pdf"><button>Download PDF</button></a></small>
+
 ---
 
-### 2017
-
-__2.__ __Rothstein, A.P.__, McLaughlin, R., Acevedo-Gutiérrez, A. & Schwarz, D. WisePair: a computer program for individual matching in genetic tracking studies. *Molecular Ecology Resources*. [doi:/10.1111/1755-0998.12590](https://doi.org/10.1111/1755-0998.12590). <small><a href="/assets/pdf/Rothstein_MolEcolRes_2017.pdf"><button>Download PDF</button></a></small>
+### 2016
 
 __1.__ __Rothstein, A.P.__. [Non-invasive genetic tracking of harbor seals (_Phoca vitulina_)](https://cedar.wwu.edu/wwuet/400/). *Masters thesis*, Western Washington University, Bellingham, WA. <small><a href="/assets/pdf/masters_wwu_2016.pdf"><button>Download PDF</button></a></small>
 

@@ -6,7 +6,7 @@ description:
 nav: true
 order: 1
 ---
-
+---
 ## PhD
 
 **University of California, Berkeley**
@@ -15,6 +15,8 @@ order: 1
 
 Environmental Sci., Policy, and Management
 
+---
+
 ## MSc
 
 **Western Washington University**
@@ -22,6 +24,8 @@ Environmental Sci., Policy, and Management
 2012-2015 	 	
 
 Biology
+
+---
 
 ## BSc
 
