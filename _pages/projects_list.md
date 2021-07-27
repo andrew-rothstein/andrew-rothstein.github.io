@@ -15,8 +15,8 @@ Human movement influences the epidemiology of pathogens.  Increased rates of tra
 
 * [EcoZur nextstrain build](https://nextstrain.org/community/andrew-rothstein/ecozur-roary)
 
-<img src="/assets/img/ecozur.jpeg" width="250"> <img src="/assets/img/ecozur_nextstrain.jpg" width="500"> 
-<small align="left" >www.klevyresearch.org</small> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<small align="right" >Predicted movement of <i>E. coli</i> across urban and rural coastal Ecuador</small>
+<center><img src="/assets/img/ecozur_nextstrain.jpg" width="500"></center>
+<center><small >Predicted movement of <i>E. coli</i> across urban and rural coastal Ecuador</small></center>
 
 ## spread & emergence of amphibian chytrid fungus
 
@@ -39,10 +39,9 @@ In the Sierras Nevada of California, mountian yellow-legged frogs (*Rana sierrae
 
 *  [Stepping into the past to conserve the future: archived skin swabs from extant and extinct populations inform genetic management of an endangered amphibian.*Molecular Ecology*](https://doi.org/10.1111/mec.15515)
 
-<img src="/assets/img/pca_frogs.jpeg" width="400"> <img src="/assets/img/rana_1.jpeg" width="350">
 
-<small>PCA of frog genotypes to identify ancestral groupings</small>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<small >Photo by Issac Chelman</small>
+<center><img src="/assets/img/rana_1.jpeg" width="500"></center>
+<center><small >Photo by Issac Chelman</small></center>
 
 ## novel methods in generating -omics data
 
