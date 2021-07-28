@@ -21,7 +21,7 @@ R (preferred), Python, bash
 **Bioinformatics**
 
 targeted capture design, multiplex design, alignment, assembly, annotation, phylogenomics (
-RAxML, BEAST, iqTREE, nextstrain, TreeTime), and variant calling with GATK, samtools, ANGSD, and Freebayes
+RAxML, BEAST, iqTREE, nextstrain, TreeTime), and variant calling (GATK, samtools, ANGSD, and Freebayes)
 
 ---
 
