@@ -9,7 +9,7 @@ order: 3
 ---
 **WetLab**
 
-DNA/RNA extraction, PCR, qPCR, Illumuina library prep, targeted sequencing prep, amplicon sequencing prep.
+DNA/RNA extraction, PCR, qPCR, Illumuina library prep, targeted sequencing prep, amplicon sequencing prep
 
 ---
 **Code**
