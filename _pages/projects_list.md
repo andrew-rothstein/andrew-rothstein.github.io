@@ -9,7 +9,7 @@ order: 2
 ---
 ## human movement & pathogenic *E. coli*
 
-Human movement influences the epidemiology of pathogens.  Increased rates of travel, urbanization, and environmental change have rapidly increased the connectedness of people, communities, and ultimately the pathogens they harbor.  Using fine-scale genomic data of ciruclating *E. coli* isolates, I am applying bacterial phylogenomics to investigate the role of human travel on the spread of pathogenic strains across rural and urban communities in northern coastal Ecuador.  Understanding which communities are sources of enteric pathogen seeding events has important implications on public health intervetions.
+Human movement influences the epidemiology of pathogens.  Increased rates of travel, urbanization, and environmental change have rapidly increased the connectedness of people, communities, and ultimately the pathogens they harbor.  Using fine-scale genomic data of ciruclating *E. coli* isolates, I am applying bacterial phylogenomics to investigate the role of human travel on the spread of pathogenic strains across rural and urban communities in northern coastal Ecuador.  Understanding which communities are *sources* of enteric pathogens has important public health implications including where to prioritize interventions.
 
 **Relevant products**
 
