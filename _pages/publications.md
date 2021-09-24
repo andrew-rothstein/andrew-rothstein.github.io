@@ -8,7 +8,7 @@ years: [2021, 2020, 2017, 2016]
 order: 4
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=rvWMnDgAAAAJ&hl=en)
+<b><a href="https://scholar.google.com/citations?user=rvWMnDgAAAAJ&hl=en"><span style="color:blue">**Google Scholar**</span></a></b>
 
 ---
 
